@@ -23,3 +23,13 @@ for i in a_list:
     square = i ** 2
     print(square)
 
+#Creating another function
+
+a_string = "Car"
+string_list = ["Car", "House", "Phone"]
+
+def your_wish(x):
+    print("I want to buy a " + x)
+    
+your_wish("Car")
+
